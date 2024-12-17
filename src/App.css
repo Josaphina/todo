@@ -1,0 +1,44 @@
+body{
+  background-image:url(https://media.istockphoto.com/id/1286091197/vector/female-routine-lifestyle-activities-temporal-distribution-young-woman-daily-schedule-life.jpg?s=612x612&w=0&k=20&c=YiytpcVrY0giFHEH3IMjkoCbU36vH0_zFLW2s4F47dk=);
+}
+.App {
+  text-align:center;
+  margin: 20px;
+}
+
+input {
+  width:740px;;
+  padding: 12px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 12px 16px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type:none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f4f4f4;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
